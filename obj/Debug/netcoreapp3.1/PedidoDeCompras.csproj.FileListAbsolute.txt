@@ -2,3 +2,12 @@ C:\Users\Home\OneDrive\Documentos\Adriano\C#\PedidoDeCompras\PedidoDeCompras\obj
 C:\Users\Home\OneDrive\Documentos\Adriano\C#\PedidoDeCompras\PedidoDeCompras\obj\Debug\netcoreapp3.1\PedidoDeCompras.AssemblyInfoInputs.cache
 C:\Users\Home\OneDrive\Documentos\Adriano\C#\PedidoDeCompras\PedidoDeCompras\obj\Debug\netcoreapp3.1\PedidoDeCompras.AssemblyInfo.cs
 C:\Users\Home\OneDrive\Documentos\Adriano\C#\PedidoDeCompras\PedidoDeCompras\obj\Debug\netcoreapp3.1\PedidoDeCompras.csproj.CoreCompileInputs.cache
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\PedidoDeCompras\PedidoDeCompras\bin\Debug\netcoreapp3.1\PedidoDeCompras.exe
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\PedidoDeCompras\PedidoDeCompras\bin\Debug\netcoreapp3.1\PedidoDeCompras.deps.json
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\PedidoDeCompras\PedidoDeCompras\bin\Debug\netcoreapp3.1\PedidoDeCompras.runtimeconfig.json
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\PedidoDeCompras\PedidoDeCompras\bin\Debug\netcoreapp3.1\PedidoDeCompras.runtimeconfig.dev.json
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\PedidoDeCompras\PedidoDeCompras\bin\Debug\netcoreapp3.1\PedidoDeCompras.dll
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\PedidoDeCompras\PedidoDeCompras\bin\Debug\netcoreapp3.1\PedidoDeCompras.pdb
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\PedidoDeCompras\PedidoDeCompras\obj\Debug\netcoreapp3.1\PedidoDeCompras.dll
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\PedidoDeCompras\PedidoDeCompras\obj\Debug\netcoreapp3.1\PedidoDeCompras.pdb
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\PedidoDeCompras\PedidoDeCompras\obj\Debug\netcoreapp3.1\PedidoDeCompras.genruntimeconfig.cache

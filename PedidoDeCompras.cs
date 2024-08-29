@@ -2,29 +2,29 @@
 
 namespace PedidoDeCompras
 {
-    internal class Compras
+    internal class PedidoDeCompras
     {
-        public string produtos;
-        public double preco;
-        public double quantidade;
+        public string Produtos;
+        public double Preco;
+        public double Quantidade;
 
         public double CalcularDesconto()
         {
             double desconto = 0.00;
 
-            if (quantidade <= 10)
+            if (Quantidade <= 10)
             {
                 desconto = ProdutoSemDesconto();
             }
-            else if (quantidade > 11 && quantidade < 20)
+            else if (Quantidade > 11 && Quantidade < 20)
             {
                 desconto = CalculaPrimeiroDesconto();
             }
-            else if (quantidade > 21 && quantidade <= 50)
+            else if (Quantidade > 21 && Quantidade <= 50)
             {
                 desconto = CalculaSegundoDesconto();
             }
-            else if (quantidade > 50)
+            else if (Quantidade > 50)
             {
                 desconto = CalculaTerceiroDesconto();
             }
@@ -38,17 +38,17 @@ namespace PedidoDeCompras
 
         public double CalculaPrimeiroDesconto()
         {
-            return preco * 0.10;
+            return Preco * 0.10;
         }
 
         public double CalculaSegundoDesconto()
         {
-            return preco * 0.20;
+            return Preco * 0.20;
         }
 
         public double CalculaTerceiroDesconto()
         {
-            return preco * 0.25;
+            return Preco * 0.25;
         }
     }
 }

@@ -6,16 +6,24 @@ namespace PedidoDeCompras
     {
         static void Main(string[] args)
         {
-            //Crie um programa que receba o pedido de um produto com nome preço e quantidade Considere que de acordo com a quantidade solicitada o comprador receberá um desconto sobre o valor total O programa deve mostrar na tela o valor total do produto após ser registrado o pedido
-            Até 10 unidades valor total ​
- de 11 a 20 unidades 10 % de desconto​
- de 21 a 50 unidades 20 % de desconto ​
- acima de 50 unidades 25 % de desconto//
-                
-                //criando a classe compras//
-                PedidoDeCompras Compras = new Compras();
+            PedidoDeCompras Compras = new PedidoDeCompras();
 
+            Console.WriteLine("Digite o nome do produto que você comprou");
+            Compras.Produtos = Console.ReadLine();
 
+            Console.WriteLine($"Digite a quantidade de: {Compras.Produtos} comprados");
+            Compras.Quantidade = double.Parse(Console.ReadLine());
+
+            Console.WriteLine($"Digite o valor do: {Compras.Produtos}");
+            Compras.Preco = double.Parse(Console.ReadLine());
+
+            double desconto = Compras.CalcularDesconto();
+
+            double precoFinal = Compras.Preco - desconto;
+
+            Console.WriteLine($"Produto: {Compras.Produtos}, unidades: {Compras.Quantidade}, e o valor é: {Compras.Preco}");
+            Console.WriteLine($"Desconto: R${desconto:0.00}");
+            Console.WriteLine($"Valor final do produto: {precoFinal:0.00}");
         }
     }
 }
