@@ -6,49 +6,44 @@ namespace PedidoDeCompras
     {
         public string Produtos;
         public double Preco;
-        public double Quantidade;
+        public int Quantidade;
+
+        public PedidoDeCompras()
+        {
+        }
+
+        public PedidoDeCompras(string produtos, double preco, int quantidade)
+        {
+            this.Produtos = produtos;
+            this.Preco = preco;
+            this.Quantidade = quantidade;
+            }
 
         public double CalcularDesconto()
         {
-            double desconto = 0.00;
-
             if (Quantidade <= 10)
             {
-                desconto = ProdutoSemDesconto();
+                return 0;
             }
-            else if (Quantidade > 11 && Quantidade < 20)
+            else if (Quantidade <= 20)
             {
-                desconto = CalculaPrimeiroDesconto();
+                return Preco * Quantidade * 0.10;
             }
-            else if (Quantidade > 21 && Quantidade <= 50)
+            else if (Quantidade <= 50)
             {
-                desconto = CalculaSegundoDesconto();
+                return Preco * Quantidade * 0.20;
             }
-            else if (Quantidade > 50)
+            else
             {
-                desconto = CalculaTerceiroDesconto();
+                return Preco * Quantidade * 0.25;
             }
-            return desconto;
         }
-
-        public double ProdutoSemDesconto()
+    
+        public double ValorTotal()
         {
-            return 0.0;
-        }
-
-        public double CalculaPrimeiroDesconto()
-        {
-            return Preco * 0.10;
-        }
-
-        public double CalculaSegundoDesconto()
-        {
-            return Preco * 0.20;
-        }
-
-        public double CalculaTerceiroDesconto()
-        {
-            return Preco * 0.25;
+            double valorTotal = Preco * Quantidade;
+            double desconto = CalcularDesconto();
+            return valorTotal - desconto;
         }
     }
 }

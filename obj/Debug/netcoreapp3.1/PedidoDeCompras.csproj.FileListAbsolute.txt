@@ -11,3 +11,4 @@ C:\Users\Home\OneDrive\Documentos\Adriano\C#\PedidoDeCompras\PedidoDeCompras\bin
 C:\Users\Home\OneDrive\Documentos\Adriano\C#\PedidoDeCompras\PedidoDeCompras\obj\Debug\netcoreapp3.1\PedidoDeCompras.dll
 C:\Users\Home\OneDrive\Documentos\Adriano\C#\PedidoDeCompras\PedidoDeCompras\obj\Debug\netcoreapp3.1\PedidoDeCompras.pdb
 C:\Users\Home\OneDrive\Documentos\Adriano\C#\PedidoDeCompras\PedidoDeCompras\obj\Debug\netcoreapp3.1\PedidoDeCompras.genruntimeconfig.cache
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\PedidoDeCompras\PedidoDeCompras\obj\Debug\netcoreapp3.1\PedidoDeCompras.sourcelink.json
