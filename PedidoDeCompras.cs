@@ -2,45 +2,9 @@
 {
     internal class PedidoDeCompras
     {
-        private string _NomeDoProduto;
-        private double _Preco;
-        private int _Quantidade;
-
-        public string NomeDoProduto
-        {
-            get
-            {
-                return _NomeDoProduto;
-                }
-            set
-            {
-                _NomeDoProduto = value;
-            }
-        }
-
-        public double Preco
-        {
-            get
-            {
-                return _Preco;
-            }
-            set
-            {
-                _Preco = value;
-            }
-        }
-
-        public int Quantidade
-        {
-            get
-            {
-                return _Quantidade;
-            }
-            set
-            {
-                _Quantidade = value;
-            }
-        }
+       public string NomeDoProduto { get; set; }
+        public double Preco {  get; set; }
+        public int Quantidade { get; set; }
 
         public PedidoDeCompras()
         {
