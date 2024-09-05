@@ -1,22 +1,57 @@
-﻿using System;
-
-namespace PedidoDeCompras
+﻿namespace PedidoDeCompras
 {
     internal class PedidoDeCompras
     {
-        public string Produtos;
-        public double Preco;
-        public int Quantidade;
+        private string _NomeDoProduto;
+        private double _Preco;
+        private int _Quantidade;
+
+        public string NomeDoProduto
+        {
+            get
+            {
+                return _NomeDoProduto;
+                }
+            set
+            {
+                _NomeDoProduto = value;
+            }
+        }
+
+        public double Preco
+        {
+            get
+            {
+                return _Preco;
+            }
+            set
+            {
+                _Preco = value;
+            }
+        }
+
+        public int Quantidade
+        {
+            get
+            {
+                return _Quantidade;
+            }
+            set
+            {
+                _Quantidade = value;
+            }
+        }
 
         public PedidoDeCompras()
         {
+
         }
 
-        public PedidoDeCompras(string produtos, double preco, int quantidade)
+        public PedidoDeCompras(string nomedoproduto, double preco, int quantidade)
         {
-            this.Produtos = produtos;
-            this.Preco = preco;
-            this.Quantidade = quantidade;
+            NomeDoProduto = nomedoproduto;
+            Preco = preco;
+            Quantidade = quantidade;
             }
 
         public double CalcularDesconto()
